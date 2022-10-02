@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+}
+
+.first-part {
+    background-color: black;
+    margin-top: -100px;
+    height: 460px;
+    max-width: 100%;
+    max-height: auto;
+    margin-bottom: 0;
+    display: block;
+}
+
+#image {
+    width: 300px;
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 1300px;
+    bottom: 20px;
+    border: 5px solid rgba(255, 255, 255, 0.137);
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+#title {
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+    font-size: 150px;
+    color: white;
+    position: absolute;
+    left: 300px;
+    letter-spacing: 50px;
+}
+
+#pic-caption {
+    color: white;
+    position: absolute;
+    top: 210px;
+    left: 500px;
+    font-size: 40px;
+    font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif; 
+    font-style: italic;
+    letter-spacing: 8px;
+}
+
+#img-caption {
+    color: white;
+    position: absolute;
+    top: 395px;
+    left: 1320px;
+    font-size: 20px;
+    font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif; 
+    
+    
+}
+
+#year {
+    color: white;
+    position: absolute;
+    top: 290px;
+    left: 600px;
+    font-size: 25px;
+    font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif; 
+    font-style: italic;
+    letter-spacing: 8px;
+}
+
+#line {
+    width: 45px;
+    height: 2px;
+    background-color: rgba(128, 0, 0, 0.521);
+    position: absolute;
+    top: 310px;
+    left: 680px;
+}
+
+#life-heading, #legacy-heading {
+    padding-top: 15px; 
+    font-size: 60px;
+    font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif; 
+    text-align: center;
+
+}
+
+section {
+    background-color:rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    margin-top: -50px;
+    padding-bottom: 10px;
+}
+
+
+#first-life, #second-life {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+#first-life {
+    margin-top: -25px;
+}
+
+article p {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+article h4 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#link p {
+    padding-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
